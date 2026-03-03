@@ -221,7 +221,9 @@ export function ChannelDrawer({
               type="text"
               size="small"
               icon={<LinkOutlined />}
-              onClick={() => window.open(dingtalkDocUrl, "_blank", "noopener,noreferrer")}
+              onClick={() =>
+                window.open(dingtalkDocUrl, "_blank", "noopener,noreferrer")
+              }
               className={styles.dingtalkDocBtn}
             >
               DingTalk Doc
@@ -232,7 +234,9 @@ export function ChannelDrawer({
               type="text"
               size="small"
               icon={<LinkOutlined />}
-              onClick={() => window.open(twilioConsoleUrl, "_blank", "noopener,noreferrer")}
+              onClick={() =>
+                window.open(twilioConsoleUrl, "_blank", "noopener,noreferrer")
+              }
               className={styles.dingtalkDocBtn}
             >
               {t("channels.voiceSetupLink")}
